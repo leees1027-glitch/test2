@@ -1,0 +1,114 @@
+section#main {
+  float: right;
+  width: 760px;
+
+}
+
+section#main h2#board_title {
+  margin-top: 20px;
+  padding: 0 0 5px 0;
+  border-bottom: solid 1px #bbbbbb;
+}
+section#main #total_search {
+  padding: 5px;
+}
+section#main #total {
+  float: left;
+}
+section#main #search {
+  vertical-align: super;
+  float: right;
+}
+section#main #search #select_img {
+  vertical-align: super;
+}
+section#main #search #search_select {
+  vertical-align: super;
+}
+section#main #search #search_input {
+  vertical-align: super;
+}
+section#main #search #search_btn {
+  background-image: url('../img/search_button.gif');
+  background-repeat: no-repeat;
+  border: none;
+  width: 51px;
+  height: 23px;
+}
+section#main table {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  table-layout: fixed;
+  white-space: nowrap;
+  text-align: center;
+}
+section#main tr {
+  height: 30px;
+}
+section#main th {
+  border-top: solid 2px #aaaaaa;
+  background-color: #eeeeee;
+  text-align: center;
+}
+section#main td {
+  border-bottom: solid 1px #dddddd;
+  padding: 5px 5px 5px 5px;
+}
+section#main td.col1,
+section#main th.col1 {
+  width: 30px;
+}
+section#main td.col2,
+section#main th.col2 {
+  width: 300px;
+  text-align: left;
+}
+section#main th.col2 {
+  text-align: center;
+}
+section#main td.col3,
+section#main th.col3 {
+  width: 40px;
+}
+section#main td.col4,
+section#main th.col4 {
+  width: 50px;
+}
+section#main td.col5,
+section#main th.col5 {
+  width: 30px;
+}
+section #buttons {
+  margin: 15px 0 40px 0;
+}
+section #buttons ul {
+  text-align: center;
+  list-style-type: none;
+}
+section #buttons ul li {
+  display: inline-block;
+}
+section #buttons .col1 {
+  float: left;
+  margin-left: 200px;
+}
+section #buttons .col2 {
+  float: right;
+  margin-right: 10px;
+  vertical-align: super;
+}
+section #buttons_list {
+  background-image: url('../img/list.png');
+  background-repeat: no-repeat;
+  border: none;
+  width: 51px;
+  height: 25px;
+}
+section #buttons_new {
+  background-image: url('../img/write.png');
+  background-repeat: no-repeat;
+  border: none;
+  width: 71px;
+  height: 26px;
+}

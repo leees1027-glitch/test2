@@ -1,0 +1,75 @@
+#main {
+  float: right;
+  width: 760px;
+}
+#main h2#board_title {
+  padding: 0 0 5px 0;
+}
+#main #view_title_box {
+  margin: 10px 0 0 0;
+  padding: 10px;
+  border-top: solid 2px #aaaaaa;
+  background-color: #eeeeee;
+}
+#main #view_title_box #title {
+  display: inline-block;
+}
+#main #view_title_box #info {
+  display: inline-block;
+  margin: 0 0 0 270px;
+}
+#main #view_content {
+  padding: 20px 10px 10px 10px;
+  line-height: 150%;
+}
+#main #comment_box {
+  background-color: #eeeeee;
+  padding: 20px;
+  vertical-align: super;
+}
+#main #comment_box #title_comment {
+  display: inline-block;
+  background-image: url('../img/title_comment.gif');
+  background-repeat: no-repeat;
+  border: none;
+  width: 117px;
+  height: 81px;
+}
+#main #comment_box textarea {
+  display: inline-block;
+  width: 520px;
+  height: 81px;
+}
+#main #comment_box #ok_ripple {
+  display: inline-block;
+  background-image: url('../img/ok_ripple.gif');
+  background-repeat: no-repeat;
+  border: none;
+  width: 74px;
+  height: 81px;
+}
+section #buttons {
+  float: right;
+  margin: 20px 0 0 0;
+}
+section #buttons #delete {
+  background-image: url('../img/delete.png');
+  background-repeat: no-repeat;
+  border: none;
+  width: 51px;
+  height: 25px;
+}
+section #buttons #list {
+  background-image: url('../img/list.png');
+  background-repeat: no-repeat;
+  border: none;
+  width: 51px;
+  height: 25px;
+}
+section #buttons #new {
+  background-image: url('../img/write.png');
+  background-repeat: no-repeat;
+  border: none;
+  width: 71px;
+  height: 26px;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>클래식기타 커뮤니티</title>
+    <link rel="stylesheet" href="style/common.css" />
+    <link rel="stylesheet" href="style/header.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <link rel="stylesheet" href="style/board_left.css" />
+    <link rel="stylesheet" href="style/board_list_main.css" />
+  </head>
+  <body>
+    <div id="wrap">
+      <header>  
+        <a id="logo" href="index.html">
+          <img src="img/logo.png" alt="" />
+        </a>
+        <nav id="top_menu">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">LOGIN</a></li>
+            <li><a href="#">JOIN</a></li>
+            <li><a href="#">NOTICE</a></li>
+          </ul>
+        </nav>
+        <nav id="main_menu">
+          <ul>
+            <li><a href="board_list.html">자유 게시판</a></li>
+            <li><a href="#">기타 연주</a></li>
+            <li><a href="#">공동 구매</a></li>
+            <li><a href="#">연주회 안내</a></li>
+            <li><a href="#">회원 게시판</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="clear"></div>
+      <aside>
+        <article id="login_box">
+          <img id="login_title" src="img/ttl_login.png" />
+          <div id="input_button">
+            <ul id="login_input">
+              <form id="login_form" onsubmit="mimicLogin();return false">
+                <li><input id="id" name="id" type="text" /></li>
+                <li><input id="pw" name="pw" type="password" /></li>
+              </form>
+            </ul>
+            <button id="login_btn" type="submit" form="login_form"></button>
+          </div>
+          <div class="clear"></div>
+          <div id="join_search">
+            <a href="#"><img src="img/btn_join.gif" alt="" /></a>
+            <a href="#"><img src="img/btn_search.gif" alt="" /></a>
+          </div>
+        </article>
+        <article id="guestbook">
+          <img src="img/ttl_memo.gif" />
+          <hr />
+          <ul>
+            <li><a href="#">안녕하세요!</a></li>
+            <li><a href="#">안녕하세요!</a></li>
+            <li><a href="#">안녕하세요!</a></li>
+            <li><a href="#">안녕하세요!</a></li>
+          </ul>
+        </article>
+        <nav id="sub_menu">
+          <ul>
+            <li>자유 게시판</li>
+            <li>방명록</li>
+            <li>공지사항</li>
+            <li>등업 요청</li>
+            <li>포토갤러리</li>
+          </ul>
+        </nav>
+        <article id="sub_banner">
+          <img src="img/banner1.png" />
+          <img src="img/banner2.png" />
+          <img src="img/banner3.png" />
+        </article>
+      </aside>
+      <!-- MAIN -->
+      <section id="main">
+        <img src="img/comm.gif" />
+        <h2 id="board_title">자유 게시판</h2>
+        <hr />
+        <div id="total_search">
+          <div id="total">▷ 총 5개의 게시물이 있습니다.</div>
+          <div id="search">
+            <img id="select_img" src="img/select_search.gif" />
+            <select id="search_select" name="search">
+              <option value="all">전체</option>
+              <option value="author">글쓴이</option>
+              <option value="title">제목</option>
+            </select>
+            <input id="search_input" type="search" />
+            <button id="search_btn"></button>
+          </div>
+        </div>
+        <table>
+          <tr>
+            <th class="col1">번호</th>
+            <th class="col2">제목</th>
+            <th class="col3">글쓴이</th>
+            <th class="col4">일시</th>
+            <th class="col5">조회수</th>
+          </tr>
+          <tr>
+            <td class="col1">1</td>
+            <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+            <td class="col3">루바토</td>
+            <td class="col4">2017-09-20</td>
+            <td class="col5">15</td>
+          </tr>
+          <tr>
+            <td class="col1">2</td>
+            <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+            <td class="col3">루바토</td>
+            <td class="col4">2017-09-20</td>
+            <td class="col5">15</td>
+          </tr>
+          <tr>
+            <td class="col1">3</td>
+            <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+            <td class="col3">루바토</td>
+            <td class="col4">2017-09-20</td>
+            <td class="col5">15</td>
+          </tr>
+          <tr>
+            <td class="col1">4</td>
+            <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+            <td class="col3">루바토</td>
+            <td class="col4">2017-09-20</td>
+            <td class="col5">15</td>
+          </tr>
+          <tr>
+            <td class="col1">5</td>
+            <td class="col2"><a href="board_view.html">까스통님의 선물인 보드카가 정말 독하네요!!!</a></td>
+            <td class="col3">루바토</td>
+            <td class="col4">2017-09-20</td>
+            <td class="col5">15</td>
+          </tr>
+        </table>
+        <div id="buttons">
+          <div class="col1">
+            <ul>
+              <li><a>◀</a></li>
+              <li><a>이전</a></li>
+              <li><a>1</a></li>
+              <li><a>다음</a></li>
+              <li><a>▶</a></li>
+            </ul>
+          </div>
+          <div class="col2">
+            <button id="buttons_list"></button>
+            <a href="board_write.html"><button id="buttons_new"></button></a>
+          </div>
+        </div>
+      </section>
+      <div class="clear"></div>
+      <hr />
+      <footer>
+        <img id="footer_logo" src="img/logo_footer.gif" />
+        <div id="address">
+          <p>서울시 강남동 삼성동 1234 우 : 123-1234</p>
+          <p>TEL : 031-123-1234 Email : email@domain.com</p>
+          <p>COPYRIGHT (C) 루바토 ALL RIGHTS RESERVED</p>
+        </div>
+        <ul id="footer_sns">
+          <li><a href="#"><img src="img/facebook.gif" /></a></li>
+          <li><a href="#"><img src="img/blog.gif" /> </a></li>
+          <li><a href="#"><img src="img/twitter.gif" /> </a></li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>

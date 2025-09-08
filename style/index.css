@@ -1,0 +1,103 @@
+article a.board_more {
+  float: right;
+  margin-right: 10px;
+}
+
+#main {
+  float: right;
+  width: 760px;
+}
+
+#main hr {
+  width: 100%;
+}
+
+#main .latest_content img {
+  float: left;
+}
+
+#main .latest_content ul.list {
+  margin-top: 15px;
+  padding-left: 25px;
+}
+#main .latest_content ul.list li {
+  display: inline-block;
+}
+#main .latest_content ul.list li div {
+  display: inline-block;
+}
+
+#main .latest_content .list .subject {
+  width: 170px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#main .latest_content .list .date {
+  width: 65px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  float: right;
+}
+
+#notice_free_div,
+#youtube_div {
+  width: 50%;
+  margin-bottom: 10px;
+}
+#notice_free_div {
+  float: left;
+}
+#youtube_div {
+  float: right;
+}
+
+#youtube_img{
+  float: right;
+}
+
+#notice,
+#free,
+#youtube {
+  width: 100%;
+  padding: 10px;
+}
+
+#notice,
+#free {
+  float: left;
+}
+
+#youtube {
+  float: right;
+}
+#youtube div:has(iframe) {
+  margin-top: 10px;
+  text-align: center;
+}
+
+#gallery_inner {
+  margin: 10px 0 40px 0;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 3px 10px -5px #555555;
+  padding: 20px;
+}
+
+#gallery_inner a {
+  display: inline-block;
+  margin: 20px;
+}
+
+#gallery_inner figure figcaption {
+  padding-top: 5px;
+  text-align: center;
+}
+
+
+
+
+
+
